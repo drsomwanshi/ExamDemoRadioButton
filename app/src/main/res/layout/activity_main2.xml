@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is Activity?"
+        android:textSize="14pt"
+        ></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is an Class and Screen in Android"
+            android:id="@+id/op1"
+            android:textSize="14pt"
+            ></RadioButton>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is Just a Button"
+            android:id="@+id/op2"
+            android:textSize="14pt"
+            ></RadioButton>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="is an Intent"
+            android:id="@+id/op3"
+            android:textSize="14pt"
+            ></RadioButton>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None of the Above"
+            android:id="@+id/op4"
+            android:textSize="14pt"
+
+            ></RadioButton>
+
+
+    </RadioGroup>
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:id="@+id/b1"
+        android:textSize="14pt"
+        android:onClick="check"
+        ></Button>
+
+
+</LinearLayout>
